@@ -1,3 +1,65 @@
 #root {
   color: red;
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+}
+
+header {
+  background: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+header a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h2 {
+  font-size: 1.25rem;
+  margin: 0 0 0.5rem;
+}
+
+.card-content p {
+  margin: 0 0 0.5rem;
+  color: #555;
+}
+
+.card-content a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card-content a:hover {
+  text-decoration: underline;
+}
